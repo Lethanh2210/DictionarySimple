@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let engWord = ["Desk", "Chair", "Cat", "Dog"];
+    let vieWord = ["Bàn", "Ghế", "Mèo", "Chó"];
+    let input = prompt('Nhap tu can tim');
+    let str = input.toString();
+    let c = engWord.indexOf(str);
+    console.log(c);
+    if(c !== -1){
+        alert(`${input} là ${vieWord[c]}`);
+    }else {
+        alert('Khong tim thay');
+    }
+</script>
+</body>
+</html>
